@@ -1,0 +1,10 @@
+{ 
+   "Position Key" : "q", 
+   "Rotation Key" : "e", 
+   "ZoomIn Key" : "1", 
+   "ZoomOut Key" : "2", 
+   "Speed Shift Key" : "left shift", 
+   "Sustain Key" : "left alt", 
+   "Horizontal Key" : "left ctrl", 
+   "Vertical Key" : "space"
+}

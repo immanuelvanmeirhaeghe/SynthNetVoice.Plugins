@@ -1,0 +1,30 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        body {
+            width: 500px;
+        }
+
+        button {
+            background-color: #336dab;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+        }
+    </style>
+    <title>SynthNetVoice API browser add-on</title>
+</head>
+<body>
+    <h1>SynthNetVoice API</h1>
+    <input id="gameName" type="text" placeholder="Fallout4, GreenHell or bother supported game" value="Fallout4" />
+    <input id="npcName"  type="text" placeholder="Your NPC's name within the game" value="Codsworth" />
+    <input id="question" type="text" placeholder="NPC prompt" value="Who are you?" />
+    <input id="scribe" type="checkbox" name="Transcribe conversation?" />
+    <input id="gpt" type="checkbox" name="Use ChatGPT?" />
+    <button id="btn_npc_prompt">Prompt NPC</button>
+    <script src="popup.js"></script>
+</body>
+</html>

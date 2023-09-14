@@ -1,0 +1,688 @@
+{ 
+   "Common" : { 
+      "General" : { 
+         "Label" : "ExpressionBlushAndTears 2.90", 
+         "Version" : "2.90", 
+         "Debug Message Off" : "true"
+      }, 
+      "Plugins that might Confilict" : [ 
+         "[AS]AutoStop Other Plugins", 
+         "[AS]Stop Body Control by non-plugins", 
+         "[AS]Stop Head Control by non-plugins", 
+         "[AS]Stop Morph Control by non-plugins", 
+         "extraltodeuslExpRandPlugin.ExpressionRandomizer", 
+         "MacGruber.Breathing", 
+         "MacGruber.DriverBreathing", 
+         "MacGruber.Gaze", 
+         "VAMMoanPlugin.VAMMoan", 
+         "VRAdultFun.EmotionEngine"
+      ], 
+      "Default Position" : { 
+         "Up" : "0.4", 
+         "Right" : "0.8", 
+         "Forward" : "0.4"
+      }, 
+      "SpecialExpression" : { 
+         "Entry" : [ 
+            "CTY_Special_01Alt", 
+            "CTY_Special_02", 
+            "CTY_Special_03"
+         ], 
+         "LevelVsExpression" : { 
+            "Lv1" : { 
+               "CTY_Special_01Alt" : "False", 
+               "CTY_Special_02" : "False", 
+               "CTY_Special_03" : "False"
+            }, 
+            "Lv2" : { 
+               "CTY_Special_01Alt" : "False", 
+               "CTY_Special_02" : "False", 
+               "CTY_Special_03" : "False"
+            }, 
+            "Lv3" : { 
+               "CTY_Special_01Alt" : "True", 
+               "CTY_Special_02" : "True", 
+               "CTY_Special_03" : "True"
+            }, 
+            "Lv4" : { 
+               "CTY_Special_01Alt" : "True", 
+               "CTY_Special_02" : "True", 
+               "CTY_Special_03" : "True"
+            }, 
+            "Lv5" : { 
+               "CTY_Special_01Alt" : "True", 
+               "CTY_Special_02" : "True", 
+               "CTY_Special_03" : "True"
+            }, 
+            "Lv6" : { 
+               "CTY_Special_01Alt" : "True", 
+               "CTY_Special_02" : "True", 
+               "CTY_Special_03" : "True"
+            }, 
+            "Lv7" : { 
+               "CTY_Special_01Alt" : "True", 
+               "CTY_Special_02" : "True", 
+               "CTY_Special_03" : "True"
+            }
+         }, 
+         "EyesDirection" : { 
+            "CTY_Special_01Alt" : "Up", 
+            "CTY_Special_02" : "Up", 
+            "CTY_Special_03" : "Down"
+         }, 
+         "LevelVsRatio" : { 
+            "Lv1" : "0", 
+            "Lv2" : "0", 
+            "Lv3" : "0.1", 
+            "Lv4" : "0.1", 
+            "Lv5" : "0.2", 
+            "Lv6" : "0.3", 
+            "Lv7" : "0.5"
+         }
+      }, 
+      "PTMC On/Off" : { 
+         "extraltodeuslExpRandPlugin.ExpressionRandomizer" : "true", 
+         "MacGruber.Breathing" : "true", 
+         "MacGruber.DriverBreathing" : "true", 
+         "MacGruber.Gaze" : "true", 
+         "VAMMoanPlugin.VAMMoan" : "true", 
+         "VRAdultFun.EmotionEngine" : "true", 
+         "[AS]AutoStop Other Plugins" : "true", 
+         "[AS]Stop Morph Control by non-plugins" : "true", 
+         "[AS]Stop Head Control by non-plugins" : "true", 
+         "[AS]Stop Body Control by non-plugins" : "false"
+      }, 
+      "PTMC Timing" : { 
+         "extraltodeuslExpRandPlugin.ExpressionRandomizer" : "5", 
+         "MacGruber.Breathing" : "5", 
+         "MacGruber.DriverBreathing" : "5", 
+         "MacGruber.Gaze" : "5", 
+         "VAMMoanPlugin.VAMMoan" : "5", 
+         "VRAdultFun.EmotionEngine" : "5", 
+         "[AS]AutoStop Other Plugins" : "5", 
+         "[AS]Stop Morph Control by non-plugins" : "5", 
+         "[AS]Stop Head Control by non-plugins" : "5", 
+         "[AS]Stop Body Control by non-plugins" : "5"
+      }, 
+      "AutoStop On/Off" : { 
+         "[AS]AutoStop Other Plugins" : "true", 
+         "[AS]Stop Morph Control by non-plugins" : "true", 
+         "[AS]Stop Head Control by non-plugins" : "true", 
+         "[AS]Stop Body Control by non-plugins" : "false"
+      }
+   }, 
+   "Female" : { 
+      "General" : { 
+         "Auto Expression Off" : "false", 
+         "Auto Blink Off" : "false", 
+         "Auto Jaw Mouth Morph On" : "true", 
+         "LookMode" : "Player", 
+         "Sound On" : "true", 
+         "Sound Pitch" : "1.0", 
+         "Use VAMMoan for Sound" : "true", 
+         "Blush On" : "true", 
+         "Tears On" : "true", 
+         "Drool On" : "false", 
+         "Tears Gloss On" : "true", 
+         "Tears Type" : "Normal", 
+         "Expression On" : "true", 
+         "Eyes Control On" : "true", 
+         "Eyes Rollup On" : "true", 
+         "Nipple Erection On" : "true", 
+         "Clitoris Erection On" : "true", 
+         "Head Motion On" : "true", 
+         "2x Collider Radius" : "true", 
+         "AutoStop OtherPlugins" : "true", 
+         "Blush Type" : "Reallike-Small", 
+         "Blush Duration Time" : "10", 
+         "Tears Duration Time" : "10", 
+         "Expression Up Time" : "0.2", 
+         "Expression Down Time" : "2.8", 
+         "Expression Duration Time Offset(Min)" : "0.5", 
+         "Expression Duration Time Offset(Max)" : "1.0", 
+         "Expression Strength" : "1.0", 
+         "Eyes Control interval Time" : "2", 
+         "BodyMorph Duration Time" : "10", 
+         "Peeing On" : "false", 
+         "Display UI Menu" : "true", 
+         "Breath Strength" : "-10", 
+         "Debug Message Off" : "false", 
+         "Sound Type(Default)" : "default", 
+         "Ecstasy Scale" : "3", 
+         "Delayed Synchronous Interval" : "0.3", 
+         "Sensitive Trigger" : "true", 
+         "Covering Action" : "true", 
+         "Penis Support" : "true", 
+         "HeadMotionOff During Possession" : "false", 
+         "Armbinder By Hand" : "true", 
+         "Armbinder By Beam" : "false", 
+         "Legbinder By Hand" : "true", 
+         "Legbinder By Beam" : "false", 
+         "Select One Arm Each" : "false", 
+         "Collision Failure Check" : "true", 
+         "Collision Auto Fix" : "true", 
+         "Forced Undress" : "false", 
+         "Reverse Gravity" : "false", 
+         "Undress Detach" : "true", 
+         "Alter SkinWrap to ClothSim" : "true", 
+         "Hold Clothes containing NGWords" : "true", 
+         "Hold Clothes with ClothSim" : "true", 
+         "Hold Clothes with AlterSkinWrap" : "true", 
+         "Shivering during climax(morph)" : "true", 
+         "Shivering during climax(bone)" : "true", 
+         "Cover with Hands" : "true", 
+         "Close Legs" : "true", 
+         "Cover Mouth" : "true", 
+         "CUA Collision" : "true", 
+         "Undress CUAs Exclude Head" : "true", 
+         "CustomUnityAsset Scale" : "0.9", 
+         "Mouth Cover Event Ratio" : "0.1", 
+         "Sound Volume" : "1.0", 
+         "CUA Speed Randomizer" : "true", 
+         "CUA Random Speed Min" : "0.5", 
+         "CUA Random Speed Max" : "2.0", 
+         "Playback Rate: Breath" : "1.0", 
+         "Playback Rate: Moan" : "1.0", 
+         "Playback Rate: Climax" : "1.0"
+      }, 
+      "StageThreshold" : { 
+         "Threshold0" : { 
+            "Value" : "0", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold1" : { 
+            "Value" : "20", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold2" : { 
+            "Value" : "30", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold3" : { 
+            "Value" : "60", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold4" : { 
+            "Value" : "80", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold5" : { 
+            "Value" : "100", 
+            "Clothes" : [ 
+            ]
+         }
+      }, 
+      "BodyMorph" : { 
+         "Nipple" : "CTY_Nipple_Erection", 
+         "Clitoris" : "CTY_Clitoris_Erection Genital"
+      }, 
+      "Orgasm" : { 
+         "Orgasm Wave Big Cycle Count Max" : "10", 
+         "Orgasm Wave Big Cycle Count Min" : "4", 
+         "Orgasm Wave Small Cycle Count Max" : "3", 
+         "Orgasm Wave Small Cycle Count Min" : "1", 
+         "Orgasm Afterglow Big Cycle Count Max" : "3", 
+         "Orgasm Afterglow Big Cycle Count Min" : "1", 
+         "Orgasm Afterglow Small Cycle Count Max" : "2", 
+         "Orgasm Afterglow Small Cycle Count Min" : "1", 
+         "Orgasm Wave Big Cycle Interval Max" : "0.4", 
+         "Orgasm Wave Small Cycle Interval Max" : "0.1", 
+         "Orgasm Afterglow Big Cycle Interval Max" : "0.8", 
+         "Orgasm Afterglow Small Cycle Interval Max" : "0.2", 
+         "Orgasm Strength Max" : "1.0", 
+         "Afterglow Strength Max" : "0.6", 
+         "Bending Backward Ratio" : "0", 
+         "Orgasm Afterglow Big Small Interval Max" : "0"
+      }, 
+      "Tears" : [ 
+         "Clear", 
+         "Normal", 
+         "White", 
+         "Clear(Alt)", 
+         "Normal(Alt)", 
+         "White(Alt)"
+      ], 
+      "Peeing" : { 
+         "Peeing Ratio" : "0.01"
+      }, 
+      "HeadControlAngle" : { 
+         "Face Forward" : { 
+            "up" : "0", 
+            "right" : "0", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Face Sideways 1" : { 
+            "up" : "60", 
+            "right" : "25", 
+            "forward" : "5", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Face Sideways 2" : { 
+            "up" : "70", 
+            "right" : "45", 
+            "forward" : "5", 
+            "right2" : "-35", 
+            "forward2" : "15"
+         }, 
+         "Face Sideways 3" : { 
+            "up" : "80", 
+            "right" : "35", 
+            "forward" : "5", 
+            "right2" : "-50", 
+            "forward2" : "20"
+         }, 
+         "Glance" : { 
+            "up" : "30", 
+            "right" : "25", 
+            "forward" : "5", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Turn Head Back 1" : { 
+            "up" : "0", 
+            "right" : "-3", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Turn Head Back 2" : { 
+            "up" : "0", 
+            "right" : "-20", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }
+      }, 
+      "HeadControlRatio" : { 
+         "EventList" : [ 
+            "Stage<3:OrgasmCount<99", 
+            "Stage<5:OrgasmCount<99", 
+            "Stage=5:OrgasmCount<01", 
+            "Stage=5:OrgasmCount<03", 
+            "Stage=5:OrgasmCount<06", 
+            "Stage=5:OrgasmCount<09", 
+            "Stage=5:OrgasmCount<99"
+         ], 
+         "ActionList" : [ 
+            "Face Forward", 
+            "Turn Head Back 1", 
+            "Turn Head Back 2", 
+            "Glance", 
+            "Face Sideways 1", 
+            "Face Sideways 2", 
+            "Face Sideways 3"
+         ], 
+         "EventFireRatio" : { 
+            "Stage<3:OrgasmCount<99" : "0.10", 
+            "Stage<5:OrgasmCount<99" : "0.10", 
+            "Stage=5:OrgasmCount<01" : "0.10", 
+            "Stage=5:OrgasmCount<03" : "0.20", 
+            "Stage=5:OrgasmCount<06" : "0.30", 
+            "Stage=5:OrgasmCount<09" : "0.50", 
+            "Stage=5:OrgasmCount<99" : "0.50"
+         }, 
+         "Stage<3:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "70", 
+            "Turn Head Back 2" : "5", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "10", 
+            "Face Sideways 2" : "2", 
+            "Face Sideways 3" : "2"
+         }, 
+         "Stage<5:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "60", 
+            "Turn Head Back 2" : "10", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "9", 
+            "Face Sideways 2" : "5", 
+            "Face Sideways 3" : "5"
+         }, 
+         "Stage=5:OrgasmCount<01" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "50", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "5", 
+            "Face Sideways 3" : "4"
+         }, 
+         "Stage=5:OrgasmCount<03" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "40", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "15", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "10", 
+            "Face Sideways 3" : "5"
+         }, 
+         "Stage=5:OrgasmCount<06" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "30", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "19", 
+            "Face Sideways 2" : "20", 
+            "Face Sideways 3" : "10"
+         }, 
+         "Stage=5:OrgasmCount<09" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "25", 
+            "Turn Head Back 2" : "14", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "25", 
+            "Face Sideways 3" : "15"
+         }, 
+         "Stage=5:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "25", 
+            "Turn Head Back 2" : "14", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "25", 
+            "Face Sideways 3" : "15"
+         }
+      }, 
+      "Blush Color" : { 
+         "h" : "0", 
+         "s" : "0.7997449", 
+         "v" : "0.784"
+      }, 
+      "BodyMorphOnOff" : { 
+         "Anus" : "true", 
+         "Shivering1" : "true", 
+         "Shivering2" : "true", 
+         "ShiveringP" : "true"
+      }
+   }, 
+   "Male" : { 
+      "General" : { 
+         "Auto Expression Off" : "true", 
+         "Auto Blink Off" : "true", 
+         "Auto Jaw Mouth Morph On" : "true", 
+         "LookMode" : "Player", 
+         "Sound On" : "true", 
+         "Use VAMMoan for Sound" : "false", 
+         "Sound Pitch" : "1.0", 
+         "Blush On" : "true", 
+         "Tears On" : "true", 
+         "Drool On" : "true", 
+         "Tears Gloss On" : "true", 
+         "Tears Type" : "Normal", 
+         "Expression On" : "true", 
+         "Eyes Control On" : "true", 
+         "Eyes Rollup On" : "true", 
+         "Nipple Erection On" : "false", 
+         "Clitoris Erection On" : "false", 
+         "Head Motion On" : "true", 
+         "2x Collider Radius" : "false", 
+         "AutoStop OtherPlugins" : "true", 
+         "Blush Type" : "Reallike-Small", 
+         "Blush Duration Time" : "10", 
+         "Tears Duration Time" : "10", 
+         "Expression Up Time" : "0.2", 
+         "Expression Down Time" : "2.8", 
+         "Expression Duration Time Offset(Min)" : "0.5", 
+         "Expression Duration Time Offset(Max)" : "1.0", 
+         "Expression Strength" : "1.0", 
+         "Eyes Control interval Time" : "2", 
+         "BodyMorph Duration Time" : "10", 
+         "Peeing On" : "true", 
+         "Display UI Menu" : "true", 
+         "Breath Strength" : "-10", 
+         "Debug Message Off" : "false", 
+         "Sound Type(Default)" : "default", 
+         "Ecstasy Scale" : "3", 
+         "Delayed Synchronous Interval" : "0.3", 
+         "Sensitive Trigger" : "true", 
+         "Covering Action" : "true", 
+         "Penis Support" : "true", 
+         "HeadMotionOff During Possession" : "true", 
+         "Armbinder By Hand" : "true", 
+         "Armbinder By Beam" : "false", 
+         "Legbinder By Hand" : "true", 
+         "Legbinder By Beam" : "false", 
+         "Select One Arm Each" : "false", 
+         "Collision Failure Check" : "true", 
+         "Collision Auto Fix" : "false", 
+         "Forced Undress" : "true", 
+         "Reverse Gravity" : "false", 
+         "Undress Detach" : "true", 
+         "Alter SkinWrap to ClothSim" : "true", 
+         "Hold Clothes containing NGWords" : "true", 
+         "Hold Clothes with ClothSim" : "true", 
+         "Hold Clothes with AlterSkinWrap" : "true", 
+         "Shivering during climax(morph)" : "true", 
+         "Shivering during climax(bone)" : "true", 
+         "Cover with Hands" : "true", 
+         "Close Legs" : "true", 
+         "Cover Mouth" : "true", 
+         "CUA Collision" : "true", 
+         "CustomUnityAsset Scale" : "0.9", 
+         "Mouth Cover Event Ratio" : "0.1", 
+         "Sound Volume" : "1.0", 
+         "CUA Speed Randomizer" : "true", 
+         "CUA Random Speed Min" : "0.5", 
+         "CUA Random Speed Max" : "2.0", 
+         "Playback Rate: Breath" : "1.0", 
+         "Playback Rate: Moan" : "1.0", 
+         "Playback Rate: Climax" : "1.0"
+      }, 
+      "StageThreshold" : { 
+         "Threshold0" : { 
+            "Value" : "0", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold1" : { 
+            "Value" : "20", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold2" : { 
+            "Value" : "30", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold3" : { 
+            "Value" : "60", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold4" : { 
+            "Value" : "80", 
+            "Clothes" : [ 
+            ]
+         }, 
+         "Threshold5" : { 
+            "Value" : "100", 
+            "Clothes" : [ 
+            ]
+         }
+      }, 
+      "BodyMorph" : { 
+         "Nipple" : "CTY_Nipple_Erection", 
+         "Clitoris" : "CTY_Clitoris_Erection Genital"
+      }, 
+      "Orgasm" : { 
+         "Orgasm Wave Big Cycle Count Max" : "10", 
+         "Orgasm Wave Big Cycle Count Min" : "4", 
+         "Orgasm Wave Small Cycle Count Max" : "3", 
+         "Orgasm Wave Small Cycle Count Min" : "1", 
+         "Orgasm Afterglow Big Cycle Count Max" : "3", 
+         "Orgasm Afterglow Big Cycle Count Min" : "1", 
+         "Orgasm Afterglow Small Cycle Count Max" : "2", 
+         "Orgasm Afterglow Small Cycle Count Min" : "1", 
+         "Orgasm Wave Big Cycle Interval Max" : "0.4", 
+         "Orgasm Wave Small Cycle Interval Max" : "0.1", 
+         "Orgasm Afterglow Big Cycle Interval Max" : "0.8", 
+         "Orgasm Afterglow Small Cycle Interval Max" : "0.2", 
+         "Orgasm Strength Max" : "1.0", 
+         "Afterglow Strength Max" : "0.6"
+      }, 
+      "Tears" : [ 
+         "Clear", 
+         "Normal", 
+         "White", 
+         "Clear(Alt)", 
+         "Normal(Alt)", 
+         "White(Alt)"
+      ], 
+      "Peeing" : { 
+         "Peeing Ratio" : "0.01"
+      }, 
+      "HeadControlAngle" : { 
+         "Face Forward" : { 
+            "up" : "0", 
+            "right" : "0", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Face Sideways 1" : { 
+            "up" : "60", 
+            "right" : "25", 
+            "forward" : "5", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Face Sideways 2" : { 
+            "up" : "70", 
+            "right" : "45", 
+            "forward" : "5", 
+            "right2" : "-35", 
+            "forward2" : "15"
+         }, 
+         "Face Sideways 3" : { 
+            "up" : "80", 
+            "right" : "35", 
+            "forward" : "5", 
+            "right2" : "-50", 
+            "forward2" : "20"
+         }, 
+         "Glance" : { 
+            "up" : "30", 
+            "right" : "25", 
+            "forward" : "5", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Turn Head Back 1" : { 
+            "up" : "0", 
+            "right" : "-3", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }, 
+         "Turn Head Back 2" : { 
+            "up" : "0", 
+            "right" : "-20", 
+            "forward" : "0", 
+            "right2" : "0", 
+            "forward2" : "0"
+         }
+      }, 
+      "HeadControlRatio" : { 
+         "EventList" : [ 
+            "Stage<3:OrgasmCount<99", 
+            "Stage<5:OrgasmCount<99", 
+            "Stage=5:OrgasmCount<01", 
+            "Stage=5:OrgasmCount<03", 
+            "Stage=5:OrgasmCount<06", 
+            "Stage=5:OrgasmCount<09", 
+            "Stage=5:OrgasmCount<99"
+         ], 
+         "ActionList" : [ 
+            "Face Forward", 
+            "Turn Head Back 1", 
+            "Turn Head Back 2", 
+            "Glance", 
+            "Face Sideways 1", 
+            "Face Sideways 2", 
+            "Face Sideways 3"
+         ], 
+         "EventFireRatio" : { 
+            "Stage<3:OrgasmCount<99" : "0.10", 
+            "Stage<5:OrgasmCount<99" : "0.10", 
+            "Stage=5:OrgasmCount<01" : "0.10", 
+            "Stage=5:OrgasmCount<03" : "0.20", 
+            "Stage=5:OrgasmCount<06" : "0.30", 
+            "Stage=5:OrgasmCount<09" : "0.50", 
+            "Stage=5:OrgasmCount<99" : "0.50"
+         }, 
+         "Stage<3:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "70", 
+            "Turn Head Back 2" : "5", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "10", 
+            "Face Sideways 2" : "2", 
+            "Face Sideways 3" : "2"
+         }, 
+         "Stage<5:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "60", 
+            "Turn Head Back 2" : "10", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "9", 
+            "Face Sideways 2" : "5", 
+            "Face Sideways 3" : "5"
+         }, 
+         "Stage=5:OrgasmCount<01" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "50", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "10", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "5", 
+            "Face Sideways 3" : "4"
+         }, 
+         "Stage=5:OrgasmCount<03" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "40", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "15", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "10", 
+            "Face Sideways 3" : "5"
+         }, 
+         "Stage=5:OrgasmCount<06" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "30", 
+            "Turn Head Back 2" : "15", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "19", 
+            "Face Sideways 2" : "20", 
+            "Face Sideways 3" : "10"
+         }, 
+         "Stage=5:OrgasmCount<09" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "25", 
+            "Turn Head Back 2" : "14", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "25", 
+            "Face Sideways 3" : "15"
+         }, 
+         "Stage=5:OrgasmCount<99" : { 
+            "Face Forward" : "1", 
+            "Turn Head Back 1" : "25", 
+            "Turn Head Back 2" : "14", 
+            "Glance" : "5", 
+            "Face Sideways 1" : "15", 
+            "Face Sideways 2" : "25", 
+            "Face Sideways 3" : "15"
+         }
+      }
+   }
+}
