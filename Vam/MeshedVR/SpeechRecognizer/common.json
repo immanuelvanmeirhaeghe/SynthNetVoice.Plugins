@@ -1,0 +1,59 @@
+<grammar version="1.0" xml:lang="en-US" xmlns="http://www.w3.org/2001/06/grammar">
+
+	<rule id="deployAction" scope="public">
+		<one-of>
+			<item> deploy </item>
+			<item> release </item>
+			<item> launch </item>
+			<item> use </item>
+			<item> send out </item>
+			<item> activate </item>
+		</one-of>
+	</rule>
+	
+	<rule id="secureAction" scope="public">
+		<one-of>
+			<item> secure </item>
+			<item> lock up </item>
+			<item> recall </item>
+			<item> withdraw </item>
+			<item> retire </item>
+			<item> retrieve </item>
+			<item> deactivate </item>
+		</one-of>
+	</rule>	
+	
+	<rule id="robotObject" scope="public">
+		<item repeat="0-1"><ruleref uri="#robotAdjective" /></item>
+		<item weight="2"><ruleref uri="#robotNoun" /></item>
+	</rule>
+	<rule id="robotAdjective">
+		<one-of>
+			<item weight="2"> terminator </item>
+			<item> killer </item>
+		</one-of>
+	</rule>
+	<rule id="robotNoun">
+		<one-of>
+			<item> robots </item>
+			<item> androids </item>
+			<item> bots </item>
+		</one-of>
+	</rule>
+	
+	<rule id="sharkObject" scope="public">
+		<item repeat="0-1"> ninja </item>
+		<item weight="2"> sharks </item>
+	</rule>
+	
+	<rule id="penguinObject" scope="public">
+		<item repeat="0-1">
+			<one-of>
+				<item weight="2"> radioactive </item>
+				<item> mutant </item>
+			</one-of>
+		</item>
+		<item weight="2"> penguins </item>
+	</rule>
+	
+</grammar>

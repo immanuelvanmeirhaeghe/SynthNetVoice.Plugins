@@ -1,0 +1,8 @@
+<grammar root="topLevel" version="1.0" xml:lang="en-US" xmlns="http://www.w3.org/2001/06/grammar" >
+	<!-- "VaM Dependency Hint" : "common.json" -->
+	<rule id="topLevel">
+		<ruleref uri="common.json#secureAction" />
+		<item> the </item>
+		<ruleref uri="common.json#penguinObject" />
+	</rule>
+</grammar>
